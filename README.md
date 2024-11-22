@@ -1,2 +1,4 @@
-# maxdiff-streamlit
-Streamlit app explaining MaxDiff survey design and analysis
+# MaxDiff Survey Tutorial
+An interactive web app explaining MaxDiff surveys. Contributions and feedback are welcome.  
+
+Try the app at [maxdiff-tutorial.streamlit.app](https://maxdiff-tutorial.streamlit.app/)
