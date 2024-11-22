@@ -195,7 +195,7 @@ if st.session_state.survey is not None:
     if all_responses_completed:
         st.subheader("Move on to analysis")
         st.write(
-            f"Now that you collected all {st.session_state.survey.n_participants} responses, you can move on to analyzing the data."
+            f"Now that you collected all {st.session_state.survey.n_participants} responses, move on to analyzing the data."
         )
         st.page_link(
             "./pages/3_3_—_Analzying_the_results.py",
