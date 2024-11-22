@@ -90,9 +90,9 @@ Where:
 
     st.subheader("")
 
-st.write("---")
+    st.write("---")
 
-st.write("That's all there is to this tutorial so far! Thanks for stopping by.")
-st.write(
-    "If you have any feedback, please reach out: [hi@jonowak.eu](mailto:hi@jonowak.eu)"
-)
+    st.write("That's all there is to this tutorial so far! Thanks for stopping by.")
+    st.write(
+        "If you have any feedback, please reach out: [hi@jonowak.eu](mailto:hi@jonowak.eu)"
+    )
