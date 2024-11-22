@@ -39,7 +39,7 @@ elif st.session_state.survey._responses["highest"].notna().sum() > 0:
         'For a first look at the preferences, we can plot the amount of times that each item was chosen as the highest vs. the lowest option. We can then subtract the two values (sum of highest - sum of lowest) to get a "net value" per item. If you generated most responses randomly, you won\'t see much of a difference between items — but you get the idea!'
     )
     st.write(
-        "The main problem here is that this simple analysis does not consider the context in which the individual items were considered by the respondents (i.e., the alternative items shown in the question)."
+        "The main problem with this simple analysis is that we don't consider the context in which the items were selected by the respondents (i.e., the alternative items shown in each question). We can do better by running a multinomial logit model — more on that below."
     )
 
     item_counts_fig = st.session_state.survey.plot_item_counts()
